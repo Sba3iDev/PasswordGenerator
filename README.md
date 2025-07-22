@@ -1,35 +1,29 @@
-# Password Generator
+# 🔐 Password Generator
 
-A desktop application built with Python and Tkinter that generates secure passwords.
+A desktop application built with **Python** and **Tkinter** that generates secure, customizable passwords with a modern dark-themed interface.
 
-## Features
+---
 
-- Generate passwords between 6-52 characters
-- Passwords include lowercase, uppercase, numbers and special characters
-- Copy generated passwords to clipboard
-- Save passwords to text file
-- Clean modern dark theme interface
-- Keyboard shortcuts support
+## ✨ Features
 
-## Requirements
+-   Generate passwords between **6–52 characters**
+-   Includes **lowercase**, **uppercase**, **numbers**, and **special characters**
+-   Copy passwords to the **clipboard**
+-   Save passwords to a **text file**
+-   Clean, modern **dark theme**
+-   Full **keyboard shortcut** support
 
-- Python 3.x
-- Required packages:
-  - pyperclip
-  - Pillow (PIL)
-  - tkinter (usually comes with Python)
+---
 
-## Usage
+## 📦 Requirements
 
-1. Run `app.py` to start the application
-2. Enter desired password length (6-52 characters)
-3. Click "Generate" or press Enter to create password
-4. Use "Copy" button to copy password to clipboard
-5. Use "Save" button to save password to file
+-   **Python 3.x**
+-   Required packages (install via `pip`):
+    -   [`pyperclip`](https://pypi.org/project/pyperclip/)
+    -   [`Pillow`](https://pypi.org/project/Pillow/) (fork of PIL)
 
-## Keyboard Shortcuts
+Install dependencies:
 
-- Ctrl+N: New/Clear
-- Ctrl+S: Save password to file
-- Ctrl+Q: Exit application
-- Enter: Generate password
+```bash
+pip install -r requirements.txt
+```
